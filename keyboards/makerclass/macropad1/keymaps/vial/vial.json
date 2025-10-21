@@ -1,0 +1,45 @@
+{
+  "name": "MakerClass Macropad 1",
+  "vendorId": "0xFEED",
+  "productId": "0x6060",
+  "lighting": "qmk_rgblight",
+  "matrix": {
+    "rows": 1,
+    "cols": 7
+  },
+  "customKeycodes": [
+    {
+      "name": "Media Player",
+      "title": "Open Media Player",
+      "shortName": "Player"
+    },
+    {
+      "name": "Notepad Macro",
+      "title": "Open Notepad with text",
+      "shortName": "Notepad"
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "x": 6.5
+        },
+        "0,0\n\n\n\n\n\n\n\n\ne",
+        "0,1\n\n\n\n\n\n\n\n\ne"
+      ],
+      [
+        "0,0",
+        "0,1",
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5",
+        {
+          "x": 0.5
+        },
+        "0,6"
+      ]
+    ]
+  }
+}
