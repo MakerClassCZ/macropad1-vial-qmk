@@ -42,8 +42,8 @@
     "enabled": true,
     "rotary": [
       {
-        "pin_a": "GP16",
-        "pin_b": "GP17",
+        "pin_a": "GP17",
+        "pin_b": "GP16",
         "resolution": 4
       }
     ]
